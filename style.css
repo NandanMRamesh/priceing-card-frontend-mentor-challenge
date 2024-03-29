@@ -1,0 +1,104 @@
+html{
+  box-sizing: border-box;
+  font-family: karla;
+  font-size: 16px;
+}
+body{
+  padding: 20px;
+}
+h2,h4,h3,p{
+  margin:0;
+}
+*, *:before , *:after {
+  box-sizing: inherit;
+}
+#card{
+  box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.39);
+  height: 400px;
+  width: 600px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#top{
+  height: 40%;
+  width: 100%;
+  padding: 15px;
+  }
+#bottom{
+  height: 60%;
+  width: 100%;
+  color: white;
+}
+#bottomLeft{
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  vertical-align: top;
+  background-color: #2CB3B3 ;
+  padding: 15px;
+}
+#bottomRight{
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  vertical-align: top;
+  background-color: #4BBEBE;
+  padding: 10px;
+}
+#top h2{
+  color: #2ab2af;
+  padding: 15px 15px 5px 10px;
+  
+}
+#top h3{
+  color: #c0df34;
+  padding: 10px;
+}
+#top p{
+  color: #98a6bd;
+  padding-left: 10px;
+}
+button{
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.39);
+}
+button:hover{
+  cursor: pointer;
+  background-color: #ADC543;
+  transform: scale(1.02);
+}
+#price{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#price-freq, #price{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#price-freq{
+  position: relative;
+  top: -4px;
+  font-size: 0.8rem;
+  opacity: 70%;
+  margin-left: 10px;
+}
+#bottomLeft h4{
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#bottomLeft p{
+  margin-bottom: 30px;
+}
+ul{
+  padding-left: 15px;
+  list-style: none;
+  line-height: 1.4;
+  opacity: 70%;
+  font-size: 0.95rem;
+  
+}
