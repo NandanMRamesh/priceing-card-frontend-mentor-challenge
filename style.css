@@ -26,22 +26,20 @@ h2,h4,h3,p{
   height: 60%;
   width: 100%;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 #bottomLeft{
-  display: inline-block;
-  height: 100%;
-  width: 100%;
   vertical-align: top;
   background-color: #2CB3B3 ;
   padding: 15px;
+  flex-basis: 50%;
 }
 #bottomRight{
-  display: inline-block;
-  height: 100%;
-  width: 100%;
   vertical-align: top;
   background-color: #4BBEBE;
   padding: 10px;
+  flex-basis: 50%;
 }
 #top h2{
   color: #2ab2af;
@@ -105,8 +103,8 @@ ul{
     height: 400px;
     width: 550px;
   }
-  #bottomLeft, #bottomRight{
-    width: 50%;
+  #bottom{
+    flex-direction: row;
   }
   
 }
