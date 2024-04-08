@@ -14,8 +14,6 @@ h2,h4,h3,p{
 }
 #card{
   box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.39);
-  height: 400px;
-  width: 600px;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -32,7 +30,7 @@ h2,h4,h3,p{
 #bottomLeft{
   display: inline-block;
   height: 100%;
-  width: 50%;
+  width: 100%;
   vertical-align: top;
   background-color: #2CB3B3 ;
   padding: 15px;
@@ -40,7 +38,7 @@ h2,h4,h3,p{
 #bottomRight{
   display: inline-block;
   height: 100%;
-  width: 50%;
+  width: 100%;
   vertical-align: top;
   background-color: #4BBEBE;
   padding: 10px;
@@ -100,5 +98,15 @@ ul{
   line-height: 1.4;
   opacity: 70%;
   font-size: 0.95rem;
+}
+
+@media (min-width: 576px){
+  #card{
+    height: 400px;
+    width: 550px;
+  }
+  #bottomLeft, #bottomRight{
+    width: 50%;
+  }
   
 }
